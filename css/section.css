@@ -57,6 +57,21 @@
 
 .number-one{
     display: flex;
+    border-bottom: black solid 2px;
+    margin: 10px;
+}
+
+.number-one img{
+    width: 100%;
+    margin: 10px;
+}
+
+.number-one h3{
+    margin: 10px;
+}
+
+.number-one p{
+    margin: 10px;
 }
 
 .news a{
@@ -74,11 +89,16 @@
     text-decoration: underline;    
 }
 
+
 .extra-news a{
-    display: flex;
     margin: 20px;
 }
 
 .extra-news h5{
     margin: 10px;
+}
+
+.extra-news{
+    margin: 25px;
+    border-bottom: black solid 2px;
 }
