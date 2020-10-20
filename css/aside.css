@@ -1,3 +1,9 @@
-.class life-video{
-    display:none;
+.life-video{
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .life-video {
+        display: block;
+    }
 }

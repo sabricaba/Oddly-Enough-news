@@ -13,15 +13,17 @@ header h1{
     padding: 10px;
 }
 
-header nav{
-    align-self: flex-end;
-    padding: 10px;
+header img{
+    align-self: flex-start;
 }
 
-header nav ul li{
-    list-style: none;
-    display: inline;
-    justify-content: flex-end;
+header nav{
+    display:none;
+}
+
+#hamburger{
+    display:flex;
+    align-self:flex-end;
 }
 
 header a{
@@ -29,9 +31,23 @@ header a{
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
 
-header img{
-    align-self: flex-start;
+@media (min-width: 992px) {
+    #hamburger{
+        display:none;
+    }
+
+    header nav{
+        display: block;
+        align-self: flex-end;
+        padding: 10px;
+    }
+    header nav ul li{
+        list-style: none;
+        display: inline;
+        justify-content: flex-end;
+    }
 }
+
+
