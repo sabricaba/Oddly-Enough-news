@@ -5,5 +5,38 @@
 @media (min-width: 992px) {
     .life-video {
         display: block;
+        background-color: black;
+        color: whitesmoke;
+        text-transform: uppercase;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        border: palevioletred solid 5px;
     }
+
+    aside ul li{
+        list-style: none;
+        font-size: 15px;
+    }
+    aside a{
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: whitesmoke;
+    }
+
+    .container {
+        display:flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+    }
+
+    aside{
+        width: 35%;
+        margin-top: 60px;
+      
+    }
+    .news{
+        width: 65%;
+        padding: 30px;
+    }
+    
 }
