@@ -33,3 +33,51 @@
     font-size: 30px;
     align-content: center;
 }
+
+#button-see-more{
+    background-color: whitesmoke;
+    display:flex;
+    justify-content: center;
+}
+
+.button-see-more{
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+#button-see-more a{
+    text-decoration: none;
+}
+
+.news{
+    font-size: 20px;
+}
+
+.news a{
+    text-decoration: none;
+    color: black;
+}
+
+.news a h3{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.news a h5{
+    text-transform: uppercase;
+    text-decoration: underline;    
+}
+
+.extra-news a{
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    flex-basis: 80%;
+}
+
+.extra-news h5{
+    margin: 10px;
+    align-self: auto;
+}
