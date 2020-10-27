@@ -6,7 +6,7 @@
     .life-video {
         display: block;
         background-color: black;
-        color: whitesmoke;
+        color: lightgrey;
         text-transform: uppercase;
         padding-right: 40px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -17,23 +17,22 @@
     }
 
     aside ul dt{
-        border-bottom: 10px double whitesmoke;
-        color: whitesmoke;
+        border-bottom: 10px double powderblue;
+        color: lightgrey;
     }
 
     aside ul li{
         list-style: none;
         font-size: 15px;
         padding-top: 10px;
-        border-bottom: 2px dotted whitesmoke;
+        border-bottom: 2px dotted powderblue;
         text-align: center;
     }
-    aside ul li a p{
-    }
+
     aside a{
         text-decoration: none;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: whitesmoke;
+        color:lightgray;
     }
 
     .container {
